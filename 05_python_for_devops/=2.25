@@ -1,0 +1,34 @@
+Requirement already satisfied: requests in /home/acordova/.local/lib/python3.7/site-packages (2.25.1)
+Collecting pytest==6.2.3
+  Downloading pytest-6.2.3-py3-none-any.whl (280 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 280.5/280.5 kB 23.0 MB/s eta 0:00:00
+Collecting pytest-mock==3.5.1
+  Downloading pytest_mock-3.5.1-py3-none-any.whl (12 kB)
+Requirement already satisfied: python-dateutil in /home/acordova/.local/lib/python3.7/site-packages (2.7.5)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: iniconfig in /home/acordova/.local/lib/python3.7/site-packages (from pytest==6.2.3) (1.1.1)
+Requirement already satisfied: importlib-metadata>=0.12 in /home/acordova/.local/lib/python3.7/site-packages (from pytest==6.2.3) (4.12.0)
+Requirement already satisfied: py>=1.8.2 in /home/acordova/.local/lib/python3.7/site-packages (from pytest==6.2.3) (1.11.0)
+Collecting pluggy<1.0.0a1,>=0.12
+  Downloading pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: packaging in /home/acordova/.local/lib/python3.7/site-packages (from pytest==6.2.3) (21.3)
+Requirement already satisfied: attrs>=19.2.0 in /home/acordova/.local/lib/python3.7/site-packages (from pytest==6.2.3) (22.1.0)
+Requirement already satisfied: chardet<5,>=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests) (2019.6.16)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/site-packages (from requests) (2.8)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/acordova/.local/lib/python3.7/site-packages (from requests) (1.25.11)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.7/site-packages (from python-dateutil) (1.12.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in /home/acordova/.local/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest==6.2.3) (4.3.0)
+Requirement already satisfied: zipp>=0.5 in /home/acordova/.local/lib/python3.7/site-packages (from importlib-metadata>=0.12->pytest==6.2.3) (3.8.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /home/acordova/.local/lib/python3.7/site-packages (from packaging->pytest==6.2.3) (3.0.9)
+Installing collected packages: toml, pluggy, pytest, pytest-mock
+  Attempting uninstall: pluggy
+    Found existing installation: pluggy 1.0.0
+    Uninstalling pluggy-1.0.0:
+      Successfully uninstalled pluggy-1.0.0
+  Attempting uninstall: pytest
+    Found existing installation: pytest 7.1.2
+    Uninstalling pytest-7.1.2:
+      Successfully uninstalled pytest-7.1.2
+Successfully installed pluggy-0.13.1 pytest-6.2.3 pytest-mock-3.5.1 toml-0.10.2
